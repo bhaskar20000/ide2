@@ -1,0 +1,77 @@
+/* Write your code here. */
+* {
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+.outer-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 10px;
+}
+
+.names-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.para-button{
+  height:50px;
+  width:130px;
+  font-weight:bold;
+  background-color:white;
+  color:#219a6f;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.inner-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+label {
+  font-size: 10px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+button {
+  color: #219a6f;
+  background-color: white;
+  height: 50px;
+  width: 130px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+input {
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+img {
+  height: 65vh;
+  width: 40vw;
+}
